@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 class Person {
-    var firstName : String //= "Kevin"
-    var lastName : String //= "Pham"
+    var firstName : String
+    var lastName : String
     var profileImage : UIImage?
     
     init (firstName : String, lastName: String) {
