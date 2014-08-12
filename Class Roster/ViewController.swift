@@ -24,24 +24,23 @@ class ViewController: UIViewController {
     // return studentArray
     // }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        studentArray(studentInfo)
-        println(students[0].firstName)
-
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     func studentArray(studentArray: NSArray) {
         for student in studentArray {
             var newPerson = Person(firstName: student["firstName"] as String, lastName: student["lastName"] as String)
             students.append(newPerson)
         }
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        studentArray(studentInfo)
+        println(students[0].firstName)
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func testButton(sender: UIButton) {
@@ -53,7 +52,7 @@ class ViewController: UIViewController {
             println(kevin.fullName() + ", there are students in this class.")
             println("There are \(students.count) students.")
         } else {
-            println(kevin.fullName() + ", there are students in this class.")
+            println(kevin.fullName() + ", there is a student in this class.")
             println("There is \(students.count) student.")
         }
     }
