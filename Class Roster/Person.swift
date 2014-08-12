@@ -7,3 +7,20 @@
 //
 
 import Foundation
+import UIKit
+
+class Person {
+    var firstName : String //= "Kevin"
+    var lastName : String //= "Pham"
+    var profileImage : UIImage?
+    
+    init (firstName : String, lastName: String) {
+        self.firstName = firstName
+        self.lastName = lastName
+    }
+    
+    func fullName() -> String {
+        return firstName + " " + lastName
+    }
+    
+}

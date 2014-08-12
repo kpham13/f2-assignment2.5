@@ -12,6 +12,8 @@
 		0ACFD3D9199967D20090CE7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACFD3D7199967D20090CE7E /* Main.storyboard */; };
 		0ACFD3DB199967D20090CE7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACFD3DA199967D20090CE7E /* Images.xcassets */; };
 		0ACFD3E7199967D20090CE7E /* Class_RosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFD3E6199967D20090CE7E /* Class_RosterTests.swift */; };
+		0ACFD3F1199967DD0090CE7E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFD3F0199967DD0090CE7E /* Person.swift */; };
+		0ACFD3F9199990060090CE7E /* StudentArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ACFD3F8199990060090CE7E /* StudentArray.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		0ACFD3E0199967D20090CE7E /* Class RosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Class RosterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACFD3E5199967D20090CE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ACFD3E6199967D20090CE7E /* Class_RosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class_RosterTests.swift; sourceTree = "<group>"; };
+		0ACFD3F0199967DD0090CE7E /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		0ACFD3F8199990060090CE7E /* StudentArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StudentArray.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			children = (
 				0ACFD3D3199967D20090CE7E /* AppDelegate.swift */,
 				0ACFD3D5199967D20090CE7E /* ViewController.swift */,
+				0ACFD3F0199967DD0090CE7E /* Person.swift */,
+				0ACFD3F8199990060090CE7E /* StudentArray.plist */,
 				0ACFD3D7199967D20090CE7E /* Main.storyboard */,
 				0ACFD3DA199967D20090CE7E /* Images.xcassets */,
 				0ACFD3D1199967D20090CE7E /* Supporting Files */,
@@ -190,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ACFD3D9199967D20090CE7E /* Main.storyboard in Resources */,
+				0ACFD3F9199990060090CE7E /* StudentArray.plist in Resources */,
 				0ACFD3DB199967D20090CE7E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACFD3F1199967DD0090CE7E /* Person.swift in Sources */,
 				0ACFD3D6199967D20090CE7E /* ViewController.swift in Sources */,
 				0ACFD3D4199967D20090CE7E /* AppDelegate.swift in Sources */,
 			);
